@@ -5,15 +5,18 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 25,
+      itemCount: 50,
       itemBuilder: (context, rowNumber) {
-        return Column(children: [
-          Image.asset("assets/image.jpg"),
-          Divider(
-            color: Colors.blue,
-          ),
-          Text("Ekyaana ", style: TextStyle(fontSize: 16.0)),
-        ]);
+        return Container(
+          padding: EdgeInsets.all(15.0),
+          child: Column(children: [
+            Image.asset("assets/image.jpg"),
+            Divider(
+              color: Colors.blue,
+            ),
+            Text("Danger!! dont come near! ", style: TextStyle(fontSize: 16.0)),
+          ]),
+        );
       },
     );
   }

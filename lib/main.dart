@@ -11,7 +11,8 @@ class CSCRecessTerm extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Winnie ", style: TextStyle(color: Colors.red)),
+              title:
+                  Text("Winnie The Simp ", style: TextStyle(color: Colors.red)),
               backgroundColor: Colors.black,
             ),
             body: Body()));
